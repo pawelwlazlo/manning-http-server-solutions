@@ -1,20 +1,20 @@
 fn main() {
   for i in 0..10 {
-    if let 0 = i {
+    if i == 0 {
       println!("Hello WasmEdge!")
-    } else if let 1 = i {
+    } else if i == 1 {
       println!("Howdy WasmEdge!")
-    } else if let 2 = i {
+    } else if i == 2 {
       println!("Howdy WasmEdge!")
-    } else if let 3 = i {
+    } else if i == 3 {
       println!("Hola WasmEdge!")
-    } else if let 4 = i {
+    } else if i == 4 {
       println!("Bonjour WasmEdge!")
-    } else if let 5 = i {
+    } else if i == 5 {
       println!("guten tag WasmEdge!")
-    } else if let 6 = i {
+    } else if i == 6 {
       println!("WasmEdge 你好!")
-    } else if let 7 = i {
+    } else if i == 7 {
       println!("こんにちは  WasmEdge!")
     } else {
       println!("Salve WasmEdge!")
